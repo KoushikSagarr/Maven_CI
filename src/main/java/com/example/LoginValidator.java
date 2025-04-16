@@ -9,7 +9,7 @@ public class LoginValidator {
     public static boolean validateName(String name) {
         return name != null && name.matches("^[A-Za-z ]+$");
     }
-
+//
     public static boolean validateEmail(String email) {
         return email != null && email.matches("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$");
     }
