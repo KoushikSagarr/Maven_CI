@@ -3,13 +3,13 @@ package com.example;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.regex.*;
-
+//
 public class LoginValidator {
 
     public static boolean validateName(String name) {
         return name != null && name.matches("^[A-Za-z ]+$");
     }
-//
+
     public static boolean validateEmail(String email) {
         return email != null && email.matches("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$");
     }
