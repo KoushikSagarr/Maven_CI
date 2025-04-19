@@ -13,11 +13,11 @@ public class LoginValidator {
     public static boolean validateEmail(String email) {
         return email != null && email.matches("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$");
     }
-
+//
     public static boolean validateMobile(String mobile) {
         return mobile != null && mobile.matches("^[0-9]{10}$");
     }
-//
+
     public static boolean validateDob(String dob) {
         try {
             LocalDate date = LocalDate.parse(dob);
