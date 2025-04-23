@@ -64,8 +64,6 @@ Edit
 mvn clean test
 (Optional) Run the app manually if you add a main() method:
 
-bash
-Copy
-Edit
+```bash
 mvn clean compile
 java -cp target/classes com.example.LoginValidator
