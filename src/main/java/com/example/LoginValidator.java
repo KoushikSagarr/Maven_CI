@@ -26,7 +26,7 @@ public class LoginValidator {
             return false;
         }
     }
-
+//
     public static boolean validatePassword(String password) {
         return password != null && password.matches("^(?=.*[A-Za-z])(?=.*\\d).{8,}$");
     }
@@ -39,3 +39,4 @@ public class LoginValidator {
                validatePassword(user.getPassword());
     }
 }
+ 
