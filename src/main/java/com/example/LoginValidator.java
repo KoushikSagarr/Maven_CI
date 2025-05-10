@@ -5,7 +5,7 @@ import java.time.format.DateTimeParseException;
 import java.util.regex.*;
 
 public class LoginValidator {
-//hi
+//mg
     public static boolean validateName(String name) {
         return name != null && name.matches("^[A-Za-z ]+$");
     }
