@@ -5,4 +5,3 @@ public class LoginValidator {
         return user != null && user.getUsername().equals("admin") && user.getPassword().equals("admin123");
     }
 }
-//
